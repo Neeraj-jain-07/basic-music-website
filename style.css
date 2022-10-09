@@ -5,6 +5,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
+    scroll-behavior: smooth;
 }
 
 header {
@@ -15,6 +16,9 @@ header {
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
+section{
+    scroll-margin: 75px;
+}
 nav {
     display: flex;
     justify-content: space-between;
@@ -123,6 +127,9 @@ button:hover {
     color: white;
 }
 
+.music {
+    padding-top:30px;
+}
 .music .img {
     margin-top: -400px;
     position: relative;
@@ -153,7 +160,6 @@ button:hover {
 
 .video .container {
     max-width: 1216px;
-    margin-bottom: 50px;
 }
 
 .footer-up {
@@ -187,6 +193,7 @@ footer .footer-lo .container {
 
 .gift-card{
     margin-bottom: 25px;
+    padding-top: 53px;
 }
 
 .gift-card img{
